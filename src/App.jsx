@@ -1,10 +1,10 @@
-import Homepage from './pages/Index';
+import KonasPage from './konas/Index';
 import './test.css'
 
 function App() {
   return(
     <>
-      <Homepage />
+      <KonasPage />
     </>
   )
 }
