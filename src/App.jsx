@@ -1,14 +1,10 @@
-
 import Homepage from './pages/Index';
-
-import './index.css'
-
+import './test.css'
 
 function App() {
   return(
     <>
       <Homepage />
-      <h1 className="text-3xl">test</h1>
     </>
   )
 }
