@@ -1,11 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Article from './component/Article'
-import './../public/style/index.css'
+
+import Homepage from './pages/Index';
+
+import './index.css'
+
 
 function App() {
-  return <Article/>
+  return(
+    <>
+      <Homepage />
+      <h1 className="text-3xl">test</h1>
+    </>
+  )
 }
 
 export default App

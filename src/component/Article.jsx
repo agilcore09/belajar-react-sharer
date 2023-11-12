@@ -1,8 +1,14 @@
-function Article(){
-    return  <div>
-                <p className="test">Ini Adalah Article</p>
-                <small>di buat oleh Agil</small>
-            </div>
+function Article(props)
+{
+    return (
+        <>
+        <div><h1>{props.name}</h1></div>
+        <div>
+            {props.title.map((titles) => {
+                return 
+            })}
+        </div>
+        </>
+    )
 }
-
 export default Article; 
