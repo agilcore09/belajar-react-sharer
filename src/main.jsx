@@ -10,7 +10,6 @@ const router = createBrowserRouter([
     path: '/',
     element: <KonasPage />
   },
-
   {
     path: '/gallery',
     element: <Gallery />
